@@ -1,0 +1,26 @@
+{
+	"extends": "./tsconfig.paths.json",
+	"compilerOptions": {
+		"target": "es6",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": [
+			"cypress",
+			"cypress-wait-until",
+			"cypress-iframe",
+			"cypress-xpath"
+		],
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "preserve",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"strict": false
+	}
+}

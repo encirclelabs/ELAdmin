@@ -1,0 +1,45 @@
+{
+  "name": "ELAdminTesting",
+  "author": "igor Mazurenko",
+  "email": "igor@encirclelabs.com",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:report": "generate-mochawesome-report",
+    "cypress:run": "cypress run --headless -b chrome --reporter mocha-multi-reporters --reporter-options configFile=reporter-config.json"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "dependencies": {
+    "cypress": "6.3.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-multi-reporters": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.7",
+    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
+    "@bahmutov/cypress-extends": "^1.1.0",
+    "@cypress/code-coverage": "^3.8.8",
+    "@cypress/instrument-cra": "^1.4.0",
+    "@cypress/webpack-preprocessor": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "code-coverage": "0.0.2",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-image-snapshot": "^4.0.0",
+    "cypress-istanbul": "^1.3.0",
+    "cypress-mochawesome-reporter": "^1.3.0",
+    "cypress-promise": "^1.1.0",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.1",
+    "del": "^6.0.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "typescript-cypress": "^1.0.5",
+    "webpack": "^5.11.1",
+    "webpack-preprocessor": "^0.1.12"
+  }
+}

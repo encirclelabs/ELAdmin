@@ -1,0 +1,104 @@
+Template ID,,,,,,
+Provider ID,,,,,,
+Name,QA Imported Project,,,,,
+Description,Standard template for new residential construction,,,,,
+Tags,New; Whole House,,,,,
+,,,,,,
+,,,,,,
+MSID,Milestone,CPID,Milestone Checkpoint,Original MS Estimate,POINTS,ASSESSMENT TYPE
+0,Builder supervision,0,Recurring checkpoint every draw,3500,,Numerical
+1,Contractor fee (profit & overhead),0,Recurring checkpoint every draw,11148,,Numerical
+2,General and Admin,0,Down payment ,5500,,Boolean
+2,General and Admin,1,Start-up or working capital draw,,,Boolean
+2,General and Admin,2,Overall project contingency/safety,,,Boolean
+2,General and Admin,3,Equipment rental and small tool purchases,,,Boolean
+2,General and Admin,4,Debris removal and dump fees run 1,,,Boolean
+2,General and Admin,5,Debris removal and dump fees run 2,,,Boolean
+2,General and Admin,6,Debris removal and dump fees run 3,,,Boolean
+2,General and Admin,7,Clean up labor,,,Boolean
+2,General and Admin,8,"Confirm deposits (windows, doors, appli, etc.)",,,Boolean
+2,General and Admin,9,"Storage containers, office trailer, Temp chemical toilets",,,Boolean
+3,Project Documentation,0,Approved plans and survey of property ( if needed ),,,Boolean
+3,Project Documentation,1,"Structural engineering, soils testing",,,Boolean
+3,Project Documentation,2,"Flood, earthquake, and other insurance confirmation ( if needed)",,,Boolean
+3,Project Documentation,3,Confirm building permit(s) and zoning approval,,,Boolean
+4,Client Documentation,0,Approved window and door schedule,,,Boolean
+4,Client Documentation,1,"Confirm appliances, fixtures, trim, paint colors",,,Boolean
+5,Demolition,0,Pre demolition #1,4000,1,Boolean
+5,Demolition,1,Disconnect and cap off of existing utilities #1,,8,Numerical
+5,Demolition,2,Post demolition #1,,34,Numerical
+5,Demolition,3,Unforseen findings #1,,1,Numerical
+9,Framing,0,Framing materials on site 1st drop,2500,8,Boolean
+9,Framing,5,First floor framing,,34,Numerical
+9,Framing,6,Second floor framing,,34,Numerical
+9,Framing,11,Exterior trim & siding,,34,Numerical
+9,Framing,12,Miscellaneous,,8,Numerical
+9,Framing,13,Code inspection - Framing,,13,Boolean
+11,Plumbing,0,Plumbing Rough-in material on site drop 1,5000,8,Boolean
+11,Plumbing,2,Underfloor/slab Plumbing Rough-in,,34,Numerical
+11,Plumbing,3,Code inspection - Underfloor/slab Plumbing Rough-in,,13,Boolean
+11,Plumbing,4,Plumbing Rough-in #1,,34,Numerical
+11,Plumbing,5,"Confirm strapping, drilling, notching, nail plates #1",,21,Numerical
+11,Plumbing,6,Code inspection - Plumbing Rough-in #1,,13,Boolean
+11,Plumbing,13,Gas Rough-in with test,,21,Numerical
+11,Plumbing,14,Code inspection - Gas Rough-in,,13,Boolean
+12,Plumbing Finish,0,Plumbing fixtures on site,1500,8,Boolean
+12,Plumbing Finish,1,Plumbing fixtures & water heater installation,,34,Numerical
+13,Electrical,0,Electrical Rough-in material on site drop 1,4600,8,Boolean
+13,Electrical,2,Underfloor/slab Electrical Rough-in,,34,Numerical
+13,Electrical,3,Code inspection - Underfloor/slab Electrical Rough-in,,13,Boolean
+13,Electrical,4,Install main panel + any sub panel(s),,34,Numerical
+13,Electrical,5,Electrical Rough-in #1,,34,Numerical
+13,Electrical,6,Code inspection - Electrical Rough-in #1,,13,Boolean
+13,Electrical,11,"Run cable, & audio/video wiring and confirm nail plates",,21,Numerical
+13,Electrical,12,Electrical service connection,,34,Numerical
+13,Electrical,13,Code inspection - Electrical Rough-in,,13,Boolean
+14,Electrical Finish,0,Electrical fixtures on site,1250,8,Boolean
+14,Electrical Finish,1,Electrical fixtures installation,,34,Numerical
+15,HVAC / Mechanical,0,Mechanical rough-in materials on site drop 1,1500,8,Boolean
+15,HVAC / Mechanical,2,Underfloor Mechanical Rough-in,,34,Numerical
+15,HVAC / Mechanical,3,Code inspection - Underfloor Mechanical Rough-in,,13,Boolean
+15,HVAC / Mechanical,4,"Mechanical Rough-in. including fans, dryer, and kitchen hood #1",,34,Numerical
+15,HVAC / Mechanical,5,Code inspection - Mechanical Rough-in #1,,13,Boolean
+16,HVAC / Mechanical/finish,0,Install HVAC unit and plenums,2000,21,Numerical
+16,HVAC / Mechanical/finish,1,Install air returns and registers ,,8,Numerical
+16,HVAC / Mechanical/finish,2,Mechanical trim & kitchen hood,,8,Numerical
+16,HVAC / Mechanical/ finish,3,Hers test,,8,Boolean
+18,Insulation,0,Underfloor/slab installation,1200,34,Numerical
+18,Insulation,1,Code inspection - underfloor/slab,,13,Boolean
+18,Insulation,2,Confirm penetrations are foamed #1,,13,Numerical
+18,Insulation,3,Installation review #1,,34,Numerical
+18,Insulation,4,Code inspection #1,,13,Boolean
+20,Exterior Doors/Windows/Skylights,0,Confirm materials ordered,3250,3,Boolean
+20,Exterior Doors/Windows/Skylights,1,Confirm items received,,8,Boolean
+20,Exterior Doors/Windows/Skylights,2,Confirm installation #1,,34,Numerical
+22,Stair Work,0,Installation review,,34,Numerical
+24,Drywall,0,Materials on site #1,7000,8,Boolean
+24,Drywall,1,Hang #1,,34,Numerical
+24,Drywall,2,Code inspection - nailing/screws #1,,13,Boolean
+24,Drywall,3,Confirm wall finish #1,,34,Numerical
+25,Shower pan(s),0,Hot mop or other waterproofing #1,500,8,Numerical
+25,Shower pan(s),1,Code inspection #1,,13,Boolean
+26,Interior doors,0,Doors on site,675,8,Boolean
+27,Interior trim & molding,0,Materials on site,250,8,Boolean
+28,Cabinets,0,Confirm cabinets on site #1,8500,13,Boolean
+28,Cabinets,1,Installation review #1,,21,Numerical
+29,Counters,0,Installation review #1,1850,21,Numerical
+30,Tiling,0,Installation review #1,3500,21,Numerical
+32,Flooring - Carpet,0,Installation review,1500,21,Numerical
+32,Flooring - Carpet,1,Floor protection,,5,Boolean
+35,Trim - Carpentry,0,Interior door and all trim/molding Installation review,4500,34,Numerical
+35,Trim - Carpentry,1,Hardware on interior doors & cabinets installation review,,21,Numerical
+35,Trim - Carpentry,2,"Other fixtures, towel bars, etc. installation review",,13,Numerical
+40,Painting - exterior/interior,0,Primer installation review #1,2500,8,Numerical
+40,Painting - exterior/interior,1,Finish coat 1 installation review #1,,13,Numerical
+40,Painting - exterior/interior,2,Finish coat 2 installation review #1,,21,Numerical
+40,Painting - exterior/interior,3,Cabinet painting/finishing installation review #1,,21,Numerical
+41,Appliances,0,Appliances on site,5000,8,Boolean
+41,Appliances,1,Installation review,,13,Numerical
+42,Mirrors and shower doors,0,Installation review #1,1250,13,Numerical
+47,Final,0,"Code inspections, Occupancy permit",1500,8,Boolean
+47,Final,1,touch up,,13,Boolean
+47,Final,2,Final cleaning,,13,Boolean
+47,Final,3,Recycling sign off for deposit,,1,Boolean
+47,Final,4,Retention,,3,Boolean

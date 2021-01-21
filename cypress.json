@@ -1,0 +1,32 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "extends": "./baseConfigs/cypress.json",
+    "baseUrl": "https://backend.qa.development.encirclelabs.com/admin/",
+    "reporter": "cypress-mochawesome-reporter",
+    "chromeWebSecurity": false,
+    "failOnStatusCode": false,
+    "CYPRESS_VIEWPORT_WIDTH": 1920,
+    "CYPRESS_VIEWPORT_HEIGHT": 1100,
+    "firefoxWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "execTimeout": 10000,
+    "taskTimeout": 10000,
+    "pageLoadTimeout": 10000,
+    "requestTimeout": 10000,
+    "responseTimeout": 10000,
+    "screenshotsFolder": "cypress/screenshots",
+    "videosFolder": "cypress/videos",
+    "screenshotOnRunFailure": true,
+    "videoCompression": 32,
+    "video": true,
+    "videoUploadOnPasses": true,
+    "trashAssetsBeforeRuns": true,
+    "experimentalRunEvents": true,
+    "retries": {
+        "runMode": 1,
+        "openMode": 1
+    },
+    "ignoreTestFiles": [
+        "**/examples/*"
+    ]
+}

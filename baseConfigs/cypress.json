@@ -1,0 +1,12 @@
+{
+    "env": {
+        "project_page": "projects/",
+        "users_page": "account/user/",
+        "tempuseremail": "justemail@dot.com",
+        "tempuserpassword": "secretPassword",
+        "tempusermobile": "+13992107887",
+        "tempusernewmobile": "+13992101111",
+        "tempuser_name": "TestFirstName",
+        "tempuser_lastname": "TestLastName"
+    }
+}

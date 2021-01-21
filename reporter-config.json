@@ -1,0 +1,7 @@
+{
+	"reporterEnabled": "spec, mocha-junit-reporter",
+	"reporterOptions": {
+		"mochaFile": "./results/report.[hash].xml",
+		"toConsole": true
+	}
+}
